@@ -1,0 +1,30 @@
+.cat-clicker-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat {
+    width: 500px;
+    margin: 10px 0;
+}
+
+.cat-header {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.cat>img {
+    margin: 0 auto;
+    width: 480px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.cat>p, .cat-name {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
